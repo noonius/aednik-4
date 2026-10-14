@@ -6,7 +6,8 @@ Aedniku 4. taseme õppematerjal: Anki kaardipakk ja veebirakendus taimede, kahju
 
 - [Anki kaardipakk](aednik_4.apkg). Ava fail GitHubis, vali **Download raw file** ning impordi allalaaditud pakk Ankisse.
 - [Ühe failina veebirakendus](Aednik%204.html). Laadi alla ja ava brauseris. Pildid on failis kaasas ning internetti pole vaja.
-- GitHub Pagesi veebilehe aadress on pärast avaldamist `https://KASUTAJANIMI.github.io/aednik-4/`.
+- [Trükitavad A6 õpikaardid](output/pdf/Aednik-4-opikaardid-A6.pdf). 419 kaarti, neli kaarti A4 lehel; pildid või küsimused ees ja vastused taga.
+- GitHub Pagesi veebilehe aadress on pärast avaldamist `https://noonius.github.io/aednik-4/`.
 
 Veebirakendus salvestab õpiedu brauserisse. Õpiedu saab eksportida ja teise seadmesse importida. Telefonis saab avaldatud lehe avakuvale lisada ning materjali offline-kasutuseks alla laadida. [Veebirakenduse kasutamine ja piirangud](docs/README.md).
 
@@ -23,19 +24,21 @@ Veebirakendus salvestab õpiedu brauserisse. Õpiedu saab eksportida ja teise se
 | `lisa_puuduvad_pildid.py` | Laadib kinnitatud pildiallikatest puuduvaid pilte |
 | `build_data.py` | Loob CSV ja Anki paki põhjal veebirakenduse andmed ning pildid |
 | `build_standalone.py` | Koondab veebirakenduse ühte HTML-faili |
+| `tee_pdf.py` | Loob kahepoolseks trükiks A6 õpikaardid A4 lehtedel |
+| `output/pdf/` | Valmis trükitav õpikaartide PDF |
 | `pildiallikad.json`, `puuduvad_*.json` | Pildiallikate ja puuduva materjali andmed |
 
 ## GitHub Pages
 
 Laadi kogu see kataloog GitHubi avalikku repositooriumi nimega `aednik-4`. Kohalik virtuaalkeskkond ja tööriistade seaded on `.gitignore` failiga välistatud.
 
-Loo GitHubis tühi avalik repo `aednik-4`, seejärel käivita selle kataloogi terminalis. Asenda `KASUTAJANIMI` enda GitHubi kasutajanimega:
+Loo GitHubis tühi avalik repo `aednik-4`, seejärel käivita selle kataloogi terminalis.:
 
 ```sh
 git init -b main
 git add .
 git commit -m "Lisa Aednik 4 õppematerjalid ja veebirakendus"
-git remote add origin https://github.com/KASUTAJANIMI/aednik-4.git
+git remote add origin git@github.com:noonius/aednik-4.git
 git push -u origin main
 ```
 
@@ -78,6 +81,26 @@ python3 -m http.server 8000 --directory docs
 ```
 
 Ava `http://localhost:8000`. Offline-funktsioon töötab localhost-is või HTTPS-is.
+
+## Õpikaartide trükkimine
+
+PDF sisaldab 210 lehekülge ehk 105 kahepoolset A4 paberilehte. Iga õpinimekirja kirje kohta on üks kaart. Pildiga kaardi esiküljel on foto, tagaküljel nimed ja foto omistus. Pildita kirjel on ees eestikeelne nimi ning küsimus ladinakeelse nime kohta. Kui nimepaar puudub, küsib kaart õpinimekirja rühma.
+
+1. Vali paber **A4**, püstpaigutus ning **tegelik suurus / 100%**. Ära kasuta lehele mahutamist ega printeri valikut „mitu lehekülge lehel”. Neli kaarti on juba PDF-i lehele paigutatud.
+2. Lülita sisse kahepoolne trükk ja **pööra piki pikka serva**.
+3. Prindi esmalt prooviks ainult PDF-i leheküljed **1-2** ühele paberile. Kontrolli vastu valgust, et mõlemal poolel on samas kohas sama kaardinumber ja lõikejooned kattuvad.
+4. Sobiva tulemuse korral prindi kogu fail ja lõika piki punktiirjooni. Viimasel lehel on üks tühi kaardikoht.
+
+Kaardid on 105 × 148 mm. A4 lehe poolitamisel saad kõrguseks 148,5 mm; täpse A6 saamiseks eemalda lisaks ülemisest ja alumisest välisservast 0,5 mm. Nende servade abijooned võivad jääda printeri prindialast välja. Kaartide sisu on servadest vähemalt 7 mm kaugusel. Printeri enda kahepoolse trüki nihke korral reguleeri printeri joondust.
+
+PDF-i uuesti loomiseks pärast veebiandmete uuendamist:
+
+```sh
+.venv/bin/python tee_pdf.py
+.venv/bin/python -m unittest test_tee_pdf
+```
+
+Skript kasutab ReportLabi kaasasolevaid fonte. Fotograafide eri kirjasüsteemides nimede jaoks kasutab see macOS-is Arial Unicode fonti. Teistes süsteemides määra vajadusel keskkonnamuutujaga `AEDNIK_PDF_FONT` kõiki omistustes esinevaid tähti toetava TTF-fondi asukoht. Kasutatud fondid manustatakse PDF-i; printijal pole neid vaja paigaldada.
 
 ## Kontrollid
 
