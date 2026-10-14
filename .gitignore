@@ -1,0 +1,34 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.openai/
+.impeccable/
+# Varasema tühja kohaliku Git-repo metaandmed.
+/taimeoppija/
+
+# Kohalikud saladused; näidisfailid võivad olla repositooriumis.
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Testide vahemälud ja ajutised failid.
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Brauserist eksporditud isiklik õpiedu.
+aednik-opiedu*.json
+
+# Kohalik algmaterjal ja uuringute märkmed.
+/Taimenimekiri  AE 4. tase (1).pdf
+/caliche-cards-uuring.md
+/pildiallikad.md
+/puuduvad_*.md

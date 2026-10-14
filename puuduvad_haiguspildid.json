@@ -1,0 +1,189 @@
+[
+  {
+    "id": "ye/Bnwfaz0",
+    "nimi": "Pseudomonas aesculi",
+    "fail": "pildid/aednik_39c3d49614661a23264b.jpg",
+    "pildi_url": "https://cdn.forestresearch.gov.uk/2026/08/Bleeding-Canker-of-Horse-Chestnut-2.jpg",
+    "allika_url": "https://www.forestresearch.gov.uk/tools-and-resources/pests-and-diseases/database/bleeding-canker-of-horse-chestnut-pseudomonas-syringae-pv-aesculi/",
+    "allikas": "Forest Research, Crown copyright",
+    "markus": "Hobukastani veritsev koorekahjustus. Allika patogeeni täisnimi on Pseudomonas syringae pv. aesculi. Sarnased sümptomid võivad olla ka teiste põhjustega.",
+    "kindel": true,
+    "litsents": "Open Government Licence v3.0, kui pole märgitud teisiti; https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+  },
+  {
+    "id": "z:y+Sv>BTu",
+    "nimi": "bakterpõletik",
+    "fail": "pildid/aednik_1d08bfd575119a153c02.jpg",
+    "pildi_url": "https://www.extension.umd.edu/sites/extension.umd.edu/files/styles/optimized/public/2021-10/hgic_fruit_fireblight_pear_5454622_600.jpg?itok=Nh9_8E1j",
+    "allika_url": "https://www.extension.umd.edu/resource/fire-blight-disease-trees",
+    "allikas": "Jason Sharman, Vitalitree, Bugwood.org; University of Maryland Extension",
+    "markus": "Näide: bakterpõletik pirnil. Erwinia põhjustatud kahjustus, pruunistunud lehed jäävad võrsele. Avalikul lehel pole foto eraldi taaskasutuslitsentsi märgitud.",
+    "kindel": true
+  },
+  {
+    "id": "z1A/nQ*(QC",
+    "nimi": "ebajahukaste",
+    "fail": "pildid/aednik_6ae141e1e00b972edbf0.jpg",
+    "pildi_url": "https://www.extension.umd.edu/sites/extension.umd.edu/files/styles/optimized/public/2023-08/HGIC-diseases-cucurbit-downy-mildew.jpg?itok=qJAp9I7p",
+    "allika_url": "https://www.extension.umd.edu/resource/downy-mildew-vegetables",
+    "allikas": "David L. Clement, UME; University of Maryland Extension",
+    "markus": "Näide: kurgi ebajahukaste. Kollakaspruunid nurgelised lehelaigud. Ebajahukaste nimetuse all on mitu peremeestaimest sõltuvat patogeeni. Fotole pole avalikul lehel eraldi taaskasutuslitsentsi märgitud.",
+    "kindel": true
+  },
+  {
+    "id": "H,!@rj5<^/",
+    "nimi": "elupuu pudetõbi",
+    "fail": "pildid/aednik_6c17ae52cc1ccc118b9d.jpg",
+    "pildi_url": "https://tidcf.nrcan.gc.ca/images_web/imfc/maladies/large/be_007.jpg",
+    "allika_url": "https://tidcf.nrcan.gc.ca/en/diseases-caused-by-pathogens/factsheet/168",
+    "allikas": "Bob Erickson; Natural Resources Canada, Canadian Forest Service",
+    "markus": "Didymascella thujina kahjustatud hiigel-elupuu Thuja plicata lehestik. Foto allikas määrab haiguse ja peremehe; pole pilt terve puu kasvukujust. Eraldi foto taaskasutuslitsents pole lehel märgitud.",
+    "kindel": true
+  },
+  {
+    "id": "lX}9R5)M)m",
+    "nimi": "kirsipuu lehevarisemistõbi",
+    "fail": "pildid/aednik_22c9d09d00cb350de43a.jpg",
+    "pildi_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Blumeriella_jaapii_01.JPG",
+    "allika_url": "https://commons.wikimedia.org/wiki/File:Blumeriella_jaapii_01.JPG",
+    "allikas": "AfroBrazilian, Wikimedia Commons",
+    "markus": "Blumeriella jaapii kahjustus, autori foto Riiast. Kirsipuu-lehevarisemistõve patogeeni nimi on kontrollitud Eesti taimekaitse koondmaterjali järgi.",
+    "kindel": true,
+    "litsents": "CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "t47!cY|vnS",
+    "nimi": "kummivoolus",
+    "fail": "pildid/aednik_f5070bfad7e338e001ee.jpg",
+    "pildi_url": "https://www.extension.umd.edu/sites/extension.umd.edu/files/styles/optimized/public/2021-10/HGIC_insects_borers_gummosis_on_cherry_trunk_EH_400_0.jpg?itok=PAeFPDfE",
+    "allika_url": "https://www.extension.umd.edu/resource/ornamental-cherry-trees-identify-and-manage-problems",
+    "allikas": "Ellen Hartranft; University of Maryland Extension",
+    "markus": "Näide: kummivoolus kirsipuu tüvel. Kummivoolus on sümptom ja võib kaasneda vigastuse, stressi, putuka või haigusega; foto ei määra üht haigustekitajat. Eraldi foto taaskasutuslitsents pole lehel märgitud.",
+    "kindel": true
+  },
+  {
+    "id": "sExruj!Y0$",
+    "nimi": "lumiseen",
+    "fail": "pildid/aednik_870c963b343ad37ad10f.jpg",
+    "pildi_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Schneeschimmel1.jpg",
+    "allika_url": "https://commons.wikimedia.org/wiki/File:Schneeschimmel1.jpg",
+    "allikas": "Rasenprofi, Torben von Elling; Wikimedia Commons",
+    "markus": "Näide: lumiseene kahjustus murul. Autor määrab pildi lumiseenena, Commons liigitab Microdochium nivale alla. Nimi lumiseen katab ka muid haigustekitajaid.",
+    "kindel": true,
+    "litsents": "CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "wEh!z.mF$*",
+    "nimi": "luuviljaliste mädanik",
+    "fail": "pildid/aednik_4a3161cc0f1c99891114.jpg",
+    "pildi_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Monilinia_laxa_a_1%281%29.jpg",
+    "allika_url": "https://commons.wikimedia.org/wiki/File:Monilinia_laxa_a_1(1).jpg",
+    "allikas": "Jerzy Opioła; Wikimedia Commons",
+    "markus": "Monilinia laxa kahjustus hapukirsil, allika nimi Cerasus vulgaris. Haigus kahjustab ka õisi ja võrseid.",
+    "kindel": true,
+    "litsents": "CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "r<!@Vl}ee-",
+    "nimi": "närbumistõbi",
+    "fail": "pildid/aednik_a721002e57a9e4b3f339.jpg",
+    "pildi_url": "https://extension.umd.edu/sites/extension.umd.edu/files/styles/optimized/public/2021-03/hgic_veg_disease_verticillium_1577170_1600.jpg?itok=qmfAHcyN",
+    "allika_url": "https://extension.umd.edu/resource/verticillium-wilt-vegetables",
+    "allikas": "Gerald Holmes, Strawberry Center, Cal Poly San Luis Obispo, Bugwood.org; University of Maryland Extension",
+    "markus": "Näide: Verticillium-närbumistõve lehesümptomid baklažaanil. Närbumistõvedel on mitu põhjust ja see foto ei esinda kõiki. Eraldi foto taaskasutuslitsents pole lehel märgitud.",
+    "kindel": true
+  },
+  {
+    "id": "P,fcVCJ}d~",
+    "nimi": "puudushaigused (N,K,P)",
+    "fail": "pildid/aednik_5db7315a9d90eb86ecbd.jpg",
+    "pildi_url": "https://ipm.ucanr.edu/pmg/images/M/A-CI-MDEF-FO.018.jpg",
+    "allika_url": "https://ipm.ucanr.edu/home-and-landscape/common-nutrient-deficiency-symptoms/",
+    "allikas": "UC Statewide IPM Program, University of California Regents",
+    "markus": "Näide: lämmastikupuudus (N); foto ei näita fosfori- ega kaaliumipuudust. Vanad lehed on ühtlaselt kollased, nooremad rohelisemad. Eraldi foto taaskasutuslitsents pole lehel märgitud.",
+    "kindel": true,
+    "extra_pildid": [
+      {
+        "element": "P",
+        "pildi_url": "https://ipm.ucanr.edu/pmg/images/M/A-PE-MDEF-FO.020.jpg",
+        "allikas": "UC IPM, University of California Regents"
+      },
+      {
+        "element": "K",
+        "pildi_url": "https://ipm.ucanr.edu/PMG/IMAGES/M/A-WO-MDEF-FO.025.jpg",
+        "allikas": "Donald R. Hodel, UC Cooperative Extension Los Angeles"
+      }
+    ]
+  },
+  {
+    "id": "x4@Q:N7YGM",
+    "nimi": "puuviljamädanik",
+    "fail": "pildid/aednik_105305318346b4cb900f.jpg",
+    "pildi_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Monilinia_fructigena_01.JPG",
+    "allika_url": "https://commons.wikimedia.org/wiki/File:Monilinia_fructigena_01.JPG",
+    "allikas": "Sanja565658; Wikimedia Commons",
+    "markus": "Monilinia fructigena viljakahjustus. Eesti taimekaitse koondmaterjal eristab seda Monilinia laxa põhjustatud luuviljaliste mädanikust.",
+    "kindel": true,
+    "litsents": "CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "eWoO1q5bA[",
+    "nimi": "roosi tahmlaiksus",
+    "fail": "pildid/aednik_20b281fd113a1385ef3a.jpg",
+    "pildi_url": "https://extension.umd.edu/sites/extension.umd.edu/files/styles/optimized/public/2021-03/HGIC_shrubs_blackspot_rose_16x9.jpg?itok=CEtrCVWc",
+    "allika_url": "https://extension.umd.edu/resource/black-spot-disease-roses",
+    "allikas": "Whitney Cranshaw, Colorado State University, Bugwood.org; University of Maryland Extension",
+    "markus": "Diplocarpon rosae kahjustus roosilehel. Allikas määrab haiguse; tumedad laigud ja kolletumine. Eraldi foto taaskasutuslitsents pole lehel märgitud.",
+    "kindel": true
+  },
+  {
+    "id": "yKa/)-z^9A",
+    "nimi": "saaresurm",
+    "fail": "pildid/aednik_c2bbbd25f3286716ae28.jpg",
+    "pildi_url": "https://cdn.forestresearch.gov.uk/2022/02/chalara_sick_and_healthy_leaves_cropped-scaled.jpg",
+    "allika_url": "https://www.forestresearch.gov.uk/tools-and-resources/pests-and-diseases/database/ash-dieback-hymenoscyphus-fraxineus/",
+    "allikas": "Forest Research, Crown copyright",
+    "markus": "Hymenoscyphus fraxineus kahjustatud saarelehed koos tervete lehtedega. Haige lehestiku tunnus on tumenemine ja närbumine.",
+    "kindel": true,
+    "litsents": "Open Government Licence v3.0, kui pole märgitud teisiti; https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+  },
+  {
+    "id": "C4)e@f^kD$",
+    "nimi": "tamme äkksurm",
+    "fail": "pildid/aednik_979bac83052799a1f5f3.jpg",
+    "pildi_url": "https://ipm.ucanr.edu/PMG/IMAGES/P/D-WO-PRAM-TR.019.jpg",
+    "allika_url": "https://ipm.ucanr.edu/PMG/P/D-WO-PRAM-TR.019.html",
+    "allikas": "Steven V. Swain; UC IPM",
+    "markus": "Näide: Phytophthora ramorum veritsev tüvekahjustus tanoakil Notholithocarpus densiflorus. Tanoak ei ole Quercus perekonna tamm. Tamme äkksurm on haiguse nimetus ja see patogeen kahjustab mitut liiki. Eraldi foto taaskasutuslitsents pole lehel märgitud.",
+    "kindel": true
+  },
+  {
+    "id": "J4YaZ4CnFX",
+    "nimi": "tõusmepõletik",
+    "fail": "pildid/aednik_98183f7caa30fb5742b8.jpg",
+    "pildi_url": "https://extension.usu.edu/planthealth/images/factsheets/damping-off1.jpg",
+    "allika_url": "https://extension.usu.edu/planthealth/research/damping-off",
+    "allikas": "Mary Ann Hansen, Virginia Polytechnic Institute and State University, Bugwood.org; Utah State University",
+    "markus": "Näide: tõusmepõletikuga tõusme varre alus muutub pruuniks ja taim vajub pikali. Tõusmepõletikku põhjustab mitu mullas elavat seent ja oomütseeti. Eraldi foto taaskasutuslitsents pole lehel märgitud.",
+    "kindel": true
+  },
+  {
+    "id": "M%Xnf+q+]t",
+    "nimi": "varrepõletik",
+    "fail": "pildid/aednik_7cd90862b39ab99e614a.jpg",
+    "kindel": false,
+    "markus": "Täpsustamata peremeestaim ja haigustekitaja. Tomatil võib see viidata Didymella lycopersici varrekahjustusele, kartulil bakterhaigusele või heintaimedel antraknoosile. INRAE kinnitab tomati Didymella sümptomeid, kuid avalikust veebivaatest ei saadud kontrollitud foto otse-URL-i. Automaatset asendust ei valitud.",
+    "allika_url": "https://ephytia.inrae.fr/en/C/5107/Tomato-Didymella-lycopersici",
+    "allikas": "INRAE, e-phytia"
+  },
+  {
+    "id": "IW{fGUeANJ",
+    "nimi": "viljapuu-tüvevähk",
+    "fail": "pildid/aednik_fba215496e4b737588d6.jpg",
+    "pildi_url": "https://assets.rhs.org.uk/05836e9f-2692-012f-b4fe-e3f22d127fa9/62602d41-2210-4800-b07c-d9231a1238da/scn0000009_330916.jpg?auto=format&fit=clip&fm=jpg&w=1200",
+    "allika_url": "https://www.rhs.org.uk/disease/apple-canker",
+    "allikas": "Royal Horticultural Society, RHS Advice Team",
+    "markus": "Näide: Neonectria ditissima kahjustus õunapuu koorel. RHS määrab pildi õunapuu tüvevähina. Eraldi foto autor ega taaskasutuslitsents pole lehel märgitud.",
+    "kindel": true
+  }
+]

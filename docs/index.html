@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#244b37">
+  <meta name="description" content="Õpi Aednik 4. taseme taimede eestikeelseid ja ladinakeelseid nimesid piltide ja kordamiskaartidega.">
+  <title>Aednik 4</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script src="taimed.js" defer></script>
+  <script src="study.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#" aria-label="Aednik 4, lehe algus"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 27V14M16 20C5 20 5 8 5 8s12 0 11 12Zm0-6C16 4 27 5 27 5s0 10-11 9Z"/></svg>Aednik 4</a>
+    <span class="level">4. taseme õpinimekiri</span>
+  </header>
+  <main>
+    <div class="intro"><h1>Üks taim korraga.</h1><p>Vaata, meenuta ja kontrolli. Raskemad nimed tulevad uuesti.</p></div>
+    <section class="study" aria-label="Taimenimede harjutamine">
+      <div class="session-line"><span id="count"></span><span id="session-count"></span></div>
+      <div class="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
+      <article id="card" class="card">
+        <div class="question-area">
+          <img id="plant-image" alt="Õpitava taime foto" hidden>
+          <div id="name-question" class="name-question" tabindex="-1" role="group" hidden></div>
+          <div class="question-caption"><span id="plant-group"></span><h2 id="question-title" tabindex="-1">Mis on pildil?</h2></div>
+        </div>
+        <div class="answer-area">
+          <div id="hidden-answer"><p class="hint">Ütle nimi mõttes või valjusti.<br>Seejärel ava vastus.</p><div class="study-actions"><button id="reveal" class="primary">Näita vastust <span class="key-hint">tühik</span></button></div></div>
+          <div id="answer" hidden><div id="answer-content" tabindex="-1" role="group" aria-labelledby="estonian latin"><p id="estonian" class="estonian"></p><p id="latin" class="latin" lang="la"></p></div><p id="source" class="source"></p><p id="next-review" class="next-review"></p><div class="ratings study-actions"><button id="again" class="secondary">Harjutan veel <span class="key-hint">1</span></button><button id="known" class="primary">Teadsin <span class="key-hint">2</span></button></div></div>
+          <div id="empty" hidden><h2 id="empty-title" tabindex="-1"></h2><p id="empty-copy"></p><div id="practice-actions" class="study-actions"><button id="practice" class="primary">Harjuta edasi</button></div></div>
+        </div>
+      </article>
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+      <button id="undo" class="text-button" hidden>Võta viimane hinnang tagasi</button>
+      <div class="controls">
+        <label>Harjutus<select id="mode"><option value="image">Pilt → nimed</option><option value="et-latin">Eesti → ladina</option><option value="latin-et">Ladina → eesti</option></select></label>
+        <label>Kategooria<select id="group"><option value="">Kõik kategooriad</option></select></label>
+      </div>
+    </section>
+    <details class="plant-list"><summary>Vaata õpinimekirja <span id="total"></span></summary><div class="list-content"><label for="search">Otsi nime või kategooriat</label><input id="search" type="search" placeholder="Näiteks käoking või Aconitum" autocomplete="off"><p id="list-count" class="muted" aria-live="polite"></p><p id="score-summary" class="score-summary" aria-live="polite"></p><p class="score-help">Skoor käib üleval valitud harjutuse kohta. Iga järjestikune „Teadsin” tõstab skoori ühe võrra, kuni 6-ni. „Harjutan veel” viib skoori tagasi nulli. See näitab harjutamise edenemist, mitte meenutamise tõenäosust.</p><ul id="plants"></ul></div></details>
+    <footer>
+      <div class="offline"><button id="download" class="text-button">Laadi materjal offline-kasutuseks</button><p id="offline-status" aria-live="polite">Esimesel avamisel on vaja internetti.</p></div>
+      <details class="storage"><summary>Õpiedu ja kasutamine</summary><div><p>Õpiedu salvestub sellesse brauserisse. Telefon ja arvuti ei sünkrooni automaatselt. Brauseriandmete kustutamine eemaldab kohaliku õpiedu.</p><button id="export" class="text-button">Salvesta õpiedu failina</button><label class="file-label" for="import">Too õpiedu teisest seadmest</label><input id="import" type="file" accept=".json,application/json"><p id="offline-help">Telefonis lisa veebiversioon avakuvale. Enne internetita õppimist laadi materjal alla ja oota kinnitust „Materjal on offline-kasutuseks valmis”.</p><p>Kordamine kasutab lihtsaid intervalle: 1, 3, 7, 14, 30 ja 60 päeva. „Harjutan veel” toob kaardi sessioonis tagasi. Tegu on õpinimekirja näidispiltidega, mitte taimede määramise juhendiga.</p></div></details>
+      <p id="storage-warning" class="warning" role="status" hidden></p>
+    </footer>
+  </main>
+</body>
+</html>
